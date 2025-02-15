@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container" id="home" style="cursor: pointer" >
+    <a href={% url 'news_list' %} style="text-decoration: none;" >
+    <h2>آخر الأخبار والتصريحات</h2>
+    <p>هنا يتم عرض أحدث التصريحات الرسمية والأخبار.</p>
+    </a>
+</div>
+<div class="container" id="bio">
+    <a href={% url 'about_view' %} style="text-decoration: none;" >
+    <h2>السيرة الذاتية</h2>
+    <p>معلومات حول الناطق الرسمي.</p>
+    </a>
+</div>
+<div class="container" id="statements">
+    <a href={% url 'news_list' %} style="text-decoration: none;" >
+    <h2>التصريحات الرسمية</h2>
+    <p>أرشيف للتصريحات الصحفية والخطابات الرسمية.</p>
+    </a>
+</div>
+<div class="container" id="contact">
+    <a href={% url 'contact_view' %} style="text-decoration: none;" >
+    <h2>التواصل</h2>
+    <p>نموذج للتواصل مع الناطق الرسمي ووسائل الاتصال الرسمية.</p>
+    </a>
+</div>
+{% endblock content %}
