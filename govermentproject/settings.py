@@ -143,8 +143,8 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = BASE_DIR / 'media'
 
 LANGUAGE_CODE = 'ar'
 TIME_ZONE = 'Asia/Amman'  # يمكنك تغييرها إلى المنطقة الزمنية المناسبة
